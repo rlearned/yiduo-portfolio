@@ -64,8 +64,8 @@ const projectsData: Record<string, {
       'Technical skills amplify design impact when used intentionally',
     ],
   },
-  rurallens: {
-    title: 'RuralLens',
+  lens: {
+    title: 'Lens',
     tagline: 'Cross-Cultural Trust Translator',
     description: 'A mobile-first web tool that translates complex "Urban/Scientific" product information into "Rural/Trust-based" visual languages, directly addressing the accessibility gaps I observed during my Jiaxian internship.',
     tags: ['Information Accessibility', 'Cross-Cultural Design', 'Python', 'Streamlit', 'WEIRD Bias'],
@@ -95,7 +95,7 @@ const projectsData: Record<string, {
         content: 'Built with Streamlit (Python) for rapid UI prototyping. The core is a JSON mapping structure translating "Scientific Terms" to "Rural Dialect/Icons." This architecture allows for cultural customization.',
       },
     ],
-    reflection: '"My internship taught me that standard information design excludes rural populations. I didn\'t want to just write a report about it; I wanted to build a solution. I coded RuralLens to prove that accessibility is a code problem, not just a design problem."',
+    reflection: '"My internship taught me that standard information design excludes rural populations. I didn\'t want to just write a report about it; I wanted to build a solution. I coded Lens to prove that accessibility is a code problem, not just a design problem."',
     learnings: [
       'Universal design often reflects WEIRD assumptions',
       'Trust is a design element that must be intentionally built',

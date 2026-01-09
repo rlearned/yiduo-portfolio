@@ -16,8 +16,8 @@ const projects = [
     year: '2024',
   },
   {
-    id: 'rurallens',
-    title: 'RuralLens',
+    id: 'lens',
+    title: 'Lens',
     tagline: 'Cross-Cultural Trust Translator',
     description: 'Translating complex product information into trust-based visual languages for rural users. Addressing WEIRD bias in information design.',
     tags: ['Information Accessibility', 'Cross-Cultural', 'Python', 'Streamlit'],

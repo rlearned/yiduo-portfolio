@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 
 export default function AboutPage() {
   return (
@@ -36,19 +37,14 @@ export default function AboutPage() {
             >
               <div className="relative aspect-[3/4] max-w-md mx-auto lg:ml-auto">
                 <div className="absolute inset-0 blob bg-gradient-to-br from-coral-300 via-golden-200 to-sage-300 opacity-60 animate-morph" />
-                <div 
-                  className="absolute inset-4 blob placeholder-image flex items-center justify-center"
-                  data-label=""
-                >
-                  <div className="text-center p-4">
-                    <div className="w-16 h-16 mx-auto mb-3 rounded-full bg-cream-300 flex items-center justify-center">
-                      <svg className="w-8 h-8 text-charcoal-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                      </svg>
-                    </div>
-                    <p className="text-sm text-charcoal-400">Portrait Photo</p>
-                    <p className="text-xs text-charcoal-400">400 × 500px</p>
-                  </div>
+                <div className="absolute inset-4 blob overflow-hidden">
+                  <Image
+                    src="/images/portrait.jpg"
+                    alt="Yiduo Wang Portrait"
+                    fill
+                    className="object-cover"
+                    priority
+                  />
                 </div>
               </div>
             </motion.div>

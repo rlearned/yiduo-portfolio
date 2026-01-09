@@ -15,8 +15,8 @@ const projects = [
     color: 'coral',
   },
   {
-    id: 'rurallens',
-    title: 'RuralLens',
+    id: 'lens',
+    title: 'Lens',
     tagline: 'Cross-Cultural Trust Translator',
     description: 'Translating complex product information into trust-based visual languages for rural users',
     tags: ['Information Accessibility', 'Cross-Cultural', 'Python'],

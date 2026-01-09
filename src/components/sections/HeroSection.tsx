@@ -2,6 +2,7 @@
 
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion'
 import { useEffect, useState, useRef } from 'react'
+import Image from 'next/image'
 
 export function HeroSection() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
@@ -178,7 +179,7 @@ export function HeroSection() {
             </motion.a>
           </motion.div>
 
-          {/* Portrait Placeholder */}
+          {/* Portrait Photo */}
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
@@ -186,18 +187,14 @@ export function HeroSection() {
             className="relative mx-auto w-64 h-80 md:w-80 md:h-96"
           >
             <div className="absolute inset-0 blob bg-gradient-to-br from-coral-300 via-golden-200 to-sage-300 opacity-60 animate-morph" />
-            <div 
-              className="absolute inset-4 blob placeholder-image flex items-center justify-center text-charcoal-500"
-              data-label="Portrait Photo"
-            >
-              <div className="text-center p-4">
-                <div className="w-16 h-16 mx-auto mb-3 rounded-full bg-cream-300 flex items-center justify-center">
-                  <svg className="w-8 h-8 text-charcoal-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                  </svg>
-                </div>
-                <p className="text-sm text-charcoal-400">400 × 500px</p>
-              </div>
+            <div className="absolute inset-4 blob overflow-hidden">
+              <Image
+                src="/images/portrait.jpg"
+                alt="Yiduo Wang Portrait"
+                fill
+                className="object-cover"
+                priority
+              />
             </div>
           </motion.div>
         </div>

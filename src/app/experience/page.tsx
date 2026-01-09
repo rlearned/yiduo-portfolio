@@ -8,7 +8,7 @@ const experiences = [
     id: 1,
     title: 'Teaching Assistant & Grader',
     company: 'Foster School of Business, UW',
-    date: 'Apr 2024 – Present',
+    date: 'Sep 2025 – Dec 2025',
     location: 'Seattle, WA',
     type: 'Academic',
     description: 'Facilitating learning for 30+ diverse students while designing equitable assessment rubrics.',
@@ -60,7 +60,7 @@ const experiences = [
     color: 'golden',
     story: {
       title: 'The Ms. Zhang Moment',
-      content: 'During a field interview, I met Ms. Zhang, a 58-year-old consumer from rural Hunan. She picked up our yogurt, looked at the nutrition label, and put it back. "I don\'t understand these numbers," she said. "I trust what my neighbors tell me." In that moment, I realized that our "universal" information design excluded millions of people like Ms. Zhang. This became the foundation for my RuralLens project.',
+      content: 'During a field interview, I met Ms. Zhang, a 58-year-old consumer from rural Hunan. She picked up our yogurt, looked at the nutrition label, and put it back. "I don\'t understand these numbers," she said. "I trust what my neighbors tell me." In that moment, I realized that our "universal" information design excluded millions of people like Ms. Zhang. This became the foundation for my Lens project.',
     },
   },
   {
